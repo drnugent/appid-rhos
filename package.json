@@ -1,0 +1,26 @@
+{
+  "name": "AppIdCustomIdentity-Starter",
+  "version": "1.0.0",
+  "description": "App ID web application sample",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cfenv": "^1.0.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.13.4",
+    "express-enforces-ssl": "^1.1.0",
+    "express-session": "^1.15.1",
+    "fs": "0.0.1-security",
+    "helmet": "^3.6.0",
+    "ibmcloud-appid": "latest",
+    "jquery.json-viewer": "^1.1.0",
+    "jsonwebtoken": "^8.5.0",
+    "passport": "^0.3.2",
+    "passport-linkedin-oauth2": "^1.6.1"
+  }
+}
